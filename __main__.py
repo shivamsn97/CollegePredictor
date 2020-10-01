@@ -58,7 +58,7 @@ for i in data["data"]:
     ):
         predict.append(i)
 
-if noi predict:
+if not predict:
     inquirer.text(message="Done. Press Enter to exit. ")
     exit()
 
