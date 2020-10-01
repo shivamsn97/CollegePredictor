@@ -94,6 +94,5 @@ Seat Pool: {i["seat_pool"]}
 Opening Rank: {i["opening_rank"]}
 Closing Rank: {i["closing_rank"]}
     """)
-    print("Done! Exiting in 2 seconds.")
-    time.sleep(2)
+    input("Done! press enter to exit.")
     exit()
