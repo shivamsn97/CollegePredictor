@@ -35,7 +35,7 @@ questions = [
                       default=["Gender-Neutral"]
                       ),
     inquirer.Text('streams',
-                      message='Keywords to find in stream (Leave blank for all)?',
+                      message='Which Keywords to find in stream (Leave blank for all)?',
                       default=""
                       ),
     inquirer.Text(
