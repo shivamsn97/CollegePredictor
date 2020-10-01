@@ -58,10 +58,8 @@ for i in data["data"]:
     ):
         predict.append(i)
 
-import time
-if not predict:
-    print("No college found. Exiting in 2 seconds")
-    time.sleep(2)
+if noi predict:
+    inquirer.text(message="Done. Press Enter to exit. ")
     exit()
 
 predict.sort(key=lambda x: x["closing_rank"])
@@ -94,5 +92,5 @@ Seat Pool: {i["seat_pool"]}
 Opening Rank: {i["opening_rank"]}
 Closing Rank: {i["closing_rank"]}
     """)
-    input("Done! press enter to exit.")
+    inquirer.text(message="Done. Press Enter to exit. ")
     exit()
