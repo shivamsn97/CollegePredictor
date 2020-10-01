@@ -1,6 +1,7 @@
 import json
 import inquirer
 from inquirer import errors
+import pydoc
 
 data = {}
 with open("data.json",'r') as jsfile:
@@ -59,13 +60,14 @@ for i in data["data"]:
         predict.append(i)
 
 if not predict:
-    inquirer.text(message="Done. Press Enter to exit. ")
+    inquirer.text(message="No college found as per your details. Press enter to exit. ")
     exit()
 
 predict.sort(key=lambda x: x["closing_rank"])
+text = ""
 
 for i in predict:
-    print(f"""----------------------------------------------------------
+    text += f"""----------------------------------------------------------
 Name: {i["college"]}
 Stream: {i["stream"]}
 Round: {i["round"]}
@@ -74,23 +76,20 @@ Category: {i["category"]}
 Seat Pool: {i["seat_pool"]}
 Opening Rank: {i["opening_rank"]}
 Closing Rank: {i["closing_rank"]}
-    """)
+    """
+
+import os
+
+if os.name == "nt":
+    print(text)
+else:
+    pydoc.pager(text) #Doesnt works well on Windows
 
 
 if inquirer.list_input("Save to file?",choices=['Yes', 'No']) == "Yes":
     fl_name = inquirer.text(message="Enter file name.")
     if not fl_name.endswith(".txt"): fl_name+=".txt"
     with open(fl_name, "w") as file:
-        for i in predict:
-            file.write(f"""----------------------------------------------------------
-Name: {i["college"]}
-Stream: {i["stream"]}
-Round: {i["round"]}
-Quota: {i["quota"]}
-Category: {i["category"]}
-Seat Pool: {i["seat_pool"]}
-Opening Rank: {i["opening_rank"]}
-Closing Rank: {i["closing_rank"]}
-    """)
+        file.write(text)
     inquirer.text(message="Done. Press Enter to exit. ")
     exit()
