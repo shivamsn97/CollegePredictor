@@ -94,3 +94,5 @@ Closing Rank: {i["closing_rank"]}
     """)
     inquirer.text(message="Done. Press Enter to exit. ")
     exit()
+    #def get_message(answers): return str()
+    #The value of chnage in inquirer 
