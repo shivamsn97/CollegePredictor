@@ -5,8 +5,8 @@ Predict Colleges Using JOSAA Counselling Based On Your Rank Using Last Year's Da
 [Josaa Official Website](https://josaa.nic.in/webinfo/Page/Page?PageId=6&LangId=P)
 
 # Installation and Running
-Your System must have python installed (python 3),
-pip and git cli are installed and added in path.
+Your System Must Have Python Installed (python 3),
+Pip And Git Cli Are Installed And Added In Path.
 
 
 #### Open Terminal on Linux / cmd on Windows
@@ -19,16 +19,16 @@ $ python .     # python3 in case of linux systems.
 ```
 
 # Notes:
-1. Back button may not work on windows as expected
-2. You will have to enter rank according to what you are expecting, like if you have selected OBC in caste, you should enter obc rank. Selecting multiple categories are not recommended.
-3. If you have changed the source pdfs, you will need to run convert-pdfs.py to generate json from them. To do so, first you will need to install java, then a python module named tabula-py using `pip install tabula-py`
-4. The schema of table inside the pdfs may be different for different pdfs. This program is made as per the official pdfs provided by josaa for councelling session 2019.
-5. Please star the repo if it helped 
+1. Back Button May Not Work On Windows As Expected
+2. You Will Have To Enter Rank According To What You Are Expecting, Like If You Have Selected Obc In Caste, You Should Enter Obc Rank. Selecting Multiple Categories Are Not Recommended.
+3. If You Have Changed The Source Pdfs, You Will Need To Run Convert-pdfs.py To Generate Json From Them. To Do So, First You Will Need To Install Java, Then A Python Module Named Tabula-py Using `pip Install Tabula-py`
+4. The Schema Of Table Inside The Pdfs May Be Different For Different Pdfs. This Program Is Made As Per The Official Pdfs Provided By Josaa For Councelling Session 2019.
+5. Please Star The Repo If It Helped  :sweat_smile:
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull Requests Are Welcome. For Major Changes, Please Open An Issue First To Discuss What You Would Like To Change.
 
-Please make sure to update tests as appropriate.
+Please Make Sure To Update Tests As Appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
