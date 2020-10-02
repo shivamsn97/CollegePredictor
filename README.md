@@ -5,7 +5,7 @@ Predict colleges for Josaa councelling based on your rank using last year's data
 [Josaa official website](https://josaa.nic.in/webinfo/Page/Page?PageId=6&LangId=P)
 
 # Installation and Running
-First make sure python (version >= 3.6), pip and git cli are installed and added in path.
+First make sure, there is python (version >= 3.6), pip and git cli are installed and added in path.
 
 Then:
 
