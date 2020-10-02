@@ -26,9 +26,9 @@ $ python .     # python3 in case of linux systems.
 5. Please Star The Repo If It Helped  :sweat_smile:
 
 ## Contributing
-Pull Requests Are Welcome. For Major Changes, Please Open An Issue First To Discuss What You Would Like To Change.
+Pull requests are welcome. For major changes, Please open an issue first to discuss what you would like to change.
 
-Please Make Sure To Update Tests As Appropriate.
+Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
