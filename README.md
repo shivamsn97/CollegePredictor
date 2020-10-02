@@ -1,5 +1,5 @@
 # College Predictor
-Predict Colleges Using JOSAA Counselling Based On Your Rank Using Last Year's Data.
+Predict Colleges Using JOSAA Counselling Based On Your Rank Using Last Year's Data .
 
 # Data Source
 [Josaa Official Website](https://josaa.nic.in/webinfo/Page/Page?PageId=6&LangId=P)
