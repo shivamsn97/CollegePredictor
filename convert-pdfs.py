@@ -5,6 +5,7 @@ import json
 
 files = glob.glob("pdfs/*.pdf")
 
+#declaring lists
 whole_data = []
 all_colleges = []
 all_categories = []
